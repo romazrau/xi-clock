@@ -1,0 +1,29 @@
+{
+  "name": "xi-clock",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.2",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^7.0.4"
+  },
+  "fitbit": {
+    "appUUID": "91900008-1e62-4309-b496-2f26e178a44b",
+    "appType": "clockface",
+    "appDisplayName": "Xi Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
