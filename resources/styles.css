@@ -10,3 +10,39 @@
   height: 100%;
   fill: white;
 }
+
+.background {
+  viewport-fill: black;
+}
+
+#dateLabel {
+  font-size: 40;
+  font-family: System-Regular; 
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%-70;
+  fill: #ffc2aa;
+}
+
+#timeLabel {
+  font-size: 80;
+  font-family: System-Regular; 
+/*   font-family: System-Bold; */
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+20;
+  fill: white;
+}
+
+#heartRateLabel {
+  font-size: 35;
+  font-family: System-Regular; 
+  text-length: 10;
+  text-anchor: middle;
+  x: 50%;
+  y: 100%-30;
+  fill: #ffc2aa;
+}
+

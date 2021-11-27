@@ -14,13 +14,22 @@
     "appDisplayName": "Xi Clock",
     "iconFile": "resources/icon.png",
     "wipeColor": "#ffffff",
-    "requestedPermissions": [],
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
     "buildTargets": [
       "atlas",
       "vulcan"
     ],
-    "i18n": {},
-    "defaultLanguage": "en-US"
+    "i18n": {
+      "en-US": {
+        "name": "xi-clock-Face"
+      },
+      "zh-TW": {
+        "name": "習錶面"
+      }
+    },
+    "defaultLanguage": "zh-TW"
   },
   "scripts": {
     "build": "fitbit-build",
